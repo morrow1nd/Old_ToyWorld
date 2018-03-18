@@ -11,6 +11,8 @@ SET(TW_ENGINE_INC_SCENE
 
 SET(TW_ENGINE_INC_SCENE_COMPONENTS
 	"Scene/Components/CTransform.h"
+	#"Scene/Components/CBlock.h"
+	#"Scene/Components/CBlockRender.h"
 	"Scene/Components/CCamera.h"
 	"Scene/Components/CLight.h"
 	"Scene/Components/CMeshFilter.h"
@@ -19,6 +21,8 @@ SET(TW_ENGINE_INC_SCENE_COMPONENTS
 
 SET(TW_ENGINE_SRC_SCENE_COMPONENTS
 	"Scene/Components/CTransform.cpp"
+	#"Scene/Components/CBlock.cpp"
+	#"Scene/Components/CBlockRender.cpp"
 )
 
 
